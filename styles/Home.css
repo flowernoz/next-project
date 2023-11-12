@@ -1,0 +1,29 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  width: 100%;
+  padding: 80px;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.Home h1 {
+  font-size: 30px;
+  color: rgba(40, 40, 135, 0.712);
+  font-weight: bold;
+}
+
+.Home p {
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+.Home ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style-type: none;
+  letter-spacing: 1px;
+  line-height: 1.2;
+}
