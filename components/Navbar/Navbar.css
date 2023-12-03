@@ -21,12 +21,13 @@ header {
   gap: 5px;
 }
 
-.logo img{
+.logo img {
   background-color: #fff;
   border-radius: 50%;
 }
 
 .nav_links a {
+  text-transform: capitalize;
   font-size: 18px;
   color: #fff;
   transition: all 0.3s ease;
@@ -34,4 +35,12 @@ header {
 
 .nav_links a:hover {
   color: rgb(167, 95, 234);
+}
+
+select {
+  width: 60px;
+  height: 25px;
+  border-radius: 50px;
+  text-indent: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }

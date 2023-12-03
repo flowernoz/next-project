@@ -37,12 +37,6 @@ export default function Home() {
             expedita voluptates. Quasi?
           </li>
         </ul>
-        <Image
-          src="https://picsum.photos"
-          width={300}
-          height={400}
-          alt="picsum"
-        />
       </section>
     </>
   );

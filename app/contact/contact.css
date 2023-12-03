@@ -1,0 +1,39 @@
+.users {
+  text-align: center;
+  font-size: 45px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-transform: capitalize;
+  color: rgb(2, 2, 52);
+  padding-top: 30px;
+}
+.user-item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 100px;
+  gap: 20px;
+}
+.user {
+  width: 100%;
+  display: flex;
+  gap: 5px;
+}
+
+.user span,
+p,
+b {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.user span {
+  color: blue;
+}
+.user b {
+  color: blueviolet;
+  padding-left: 30px;
+}
+.user small {
+  color: orangered;
+  padding-left: 30px;
+}
