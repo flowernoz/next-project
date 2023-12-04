@@ -14,12 +14,9 @@ export default function Blog() {
   const [id, setId] = useState("");
   const api = "https://655242b95c69a7790329ca6e.mockapi.io/todo";
 
-  function get() {
-    useEffect(() => {
-      axios.get(api).then((res) => setData(res.data));
-    }, []);
-  }
-  get();
+  useEffect(() => {
+    axios.get(api).then((res) => setData(res.data));
+  }, []);
 
   console.log(data);
 
